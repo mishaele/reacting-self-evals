@@ -1,0 +1,263 @@
+<!doctype html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <title>Rubric</title>
+    <style>
+
+    span.Heading1Char {
+      color: black;
+    }
+    table {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10pt;
+      vertical-align:top;
+    }
+    tr {
+      vertical-align:top;
+    }
+    th {
+      padding-bottom:3px; 
+    }
+    td,th {
+      padding-right:3px;
+      text-align:left;
+    }
+    input {
+      width: 25pt;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12pt;
+    }
+    .CatDesc {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 8pt;
+      padding-bottom: 5px;
+    }
+    .CatTitle {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11pt;
+      font-weight: bold;
+    }
+    .CatValue {
+      width: 0pt;
+      display:none;
+    }
+    .GrOption {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10pt;
+      font-weight: bold;
+      padding: 8px 20px 8px 20px;
+      background-color: #ddd;
+      display: block;
+      float: left;
+      margin-right: 2px;
+      margin-bottom: 2px;
+    }
+    .GrDesc {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 9pt;
+      padding-bottom: 5px;
+      clear:both;
+    }
+    </style>
+  </head>
+
+  <body lang="EN-US">
+    <table id="maintable" border="0" cellspacing="0" cellpadding="0" width="100%">
+      <thead>
+        <th>&nbsp;</th>
+        <th></th>
+        <th>Barely Meets Expectations</th>
+        <th>Partially Meets Expectations</th>
+        <th>Meets Expectations</th>
+        <th>Exceeds Expectations</th>
+      </thead>
+      <tr>
+        <td>
+          <div class="CatTitle">Interpretation:</div>
+
+        </td>
+        <td><input class="CatValue" type="text" name="interpretation" id="interpretation"></td>
+        <td width="17%">
+          <div class="GrOption">0</div>
+          <div class="GrDesc">Claims supported with minimal or no evidence. Command of concepts confusing or inappropriate. Logic, if used, fallacious.</div> 
+        </td>
+        <td width="17%">
+          <div class="GrOption">150</div>
+          <div class="GrDesc">Confusion between arguments and opinion; inadequate use of reasons and evidence. Command of concepts imprecise but intelligible. Arguments, where offered, may be implausible or fallacious.</div>
+        </td>
+        <td width="17%">
+          <div class="GrOption">225</div>
+          <div class="GrDesc">Arguments supported with evidence. Analyses are plausible. Command of concepts discussed and used is reasonable. Arguments are not fallacious.</div>
+        </td>
+        <td width="17%">
+          <div class="GrOption">300</div>
+          <div class="GrDesc">All arguments are supported with appropriate evidence. Analyses are interesting and plausible. The analysis and use of concepts is appropriate and convincing. Arguments are sound and valid. </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="CatTitle">Structure:</div>
+        </td>
+        <td><input class="CatValue" type="text" id="structure"></td>
+        <td>
+          <div class="GrOption">0</div>
+          <div class="GrDesc">The paper offers no thesis. Its different parts do not connect with other parts or make sense on their own. Use of paragraphs, if any, is confusing.</div>
+        </td>
+        <td>
+          <div class="GrOption">150</div>
+          <div class="GrDesc">The paper has a recognizable structure, but it may be difficult to find the thesis or to see how different parts connect to the overall plan. Some key parts - thesis, introduction, conclusion - may be minimal, confusing, or missing. Paragraphing may be problematic.</div>
+        </td>
+        <td>
+          <div class="GrOption">225</div>
+          <div class="GrDesc">The paper states a thesis in the introduction. The body of the paper makes sense, although there may be a lack of flow. The conclusion doesn’t offer more than a recap of the argument.</div>
+        </td>
+        <td>
+          <div class="GrOption">300</div>
+          <div class="GrDesc">The paper states a clear thesis in the introduction. The body of the paper is structured in a way that both the argument and the prose flow. There is adequate signposting for the reader to know what each part of the paper is doing. Each paragraph is structured around a topic sentence. The conclusion offers more than a summary of what has been said.</div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="CatTitle">Writing:</div>
+        </td>
+        <td><input class="CatValue" type="text" id="writing"></td>
+        <td>
+          <div class="GrOption">0</div>
+          <div class="GrDesc">The prose is hard to follow. Grammatical, typographical, and proofreading errors distract the reader.</div>
+        </td>
+        <td>
+          <div class="GrOption">125</div>
+             <div class="GrDesc">The prose used takes some effort to understand. It may be weakened by word choices, over-writing, grammatical errors, or lack of proofreading.</div>
+        </td>
+        <td>
+          <div class="GrOption">188</div>
+          <div class="GrDesc">The prose used is intelligible. Grammar, word choices, spelling, and punctuation are mostly correct.</div>
+        </td>
+        <td>
+          <div class="GrOption">250</div>
+          <div class="GrDesc">The prose used is clear and precise. Word choices are appropriate. Grammar, spelling, and punctuation are flawless.</div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="CatTitle">Formatting:</div>
+        </td>
+        <td><input class="CatValue" type="text" id="formatting"></td>
+        <td>
+          <div class="GrOption">0</div>
+          <div class="GrDesc">The paper shows that the author has not thought about formatting.</div>
+        </td>
+        <td>
+          <div class="GrOption">75</div>
+          <div class="GrDesc">The paper demonstrates that its author has made some effort toward formatting it.</div>
+        </td>
+        <td>
+          <div class="GrOption">113</div>
+          <div class="GrDesc">The paper has a title. It cites the sources used. It includes page numbers.</div>
+        </td>
+        <td>
+          <div class="GrOption">150</div>
+          <div class="GrDesc">The paper has a title. Its use of citations is as specified in the prompt. It includes page numbers. It uses a reader-friendly typeface.</div>
+        </td>
+      </tr>
+
+    </table>
+    <div class="CatTitle" style="display:inline; vertical-align:top; margin-left:125px;font-size:13pt;">Total Points:</div> 
+    <input type="text" id="total" style="font-weight:bold;vertical-align:top;">
+    <textarea name="to_be_copied" id="to_be_copied" cols=70 rows=9 style="vertical-align:auto;font:8pt Arial, Helvetica, sans-serif;"></textarea>
+    <input type="submit" name="submitbutton" id="submitbutton" value="Copy text" style="width:150px;vertical-align:top;" onClick="copytext();">
+    <input type="submit" name="highlightbutton" id="highlightbutton" value="Load from text" style="width:150px;vertical-align:top;" onClick="highlightfromtext();">
+  </body>
+  <script type="text/javascript">
+  opts = document.getElementsByClassName('GrOption');
+  for (var i = 0; i < opts.length; i++) {
+    opts[i].addEventListener('click',clickhandler,false);
+  }
+
+  function clickhandler(){
+    row = this.parentNode.parentNode.rowIndex;
+    col = this.parentNode.cellIndex;
+    tbl = document.getElementById('maintable');
+    
+    values = this.parentNode.parentNode.querySelectorAll(".GrOption");
+
+    lastvalue = values[values.length-1].innerHTML;
+    
+    this.parentNode.parentNode.firstChild.nextSibling.nextSibling.nextSibling.firstChild.value = this.innerHTML + "/" + lastvalue + " " + tbl.rows[0].cells[col].innerText;
+    rownodes = this.parentNode.parentNode.getElementsByClassName('GrOption');
+    
+
+    for (var i = 0; i < rownodes.length; i++) {
+      rownodes[i].style.backgroundColor = "#ddd";
+    } 
+    this.style.backgroundColor = "#9cf";
+
+    var total, verbiage, child;
+    verbiage = '';
+    total = 0;
+    for (var i = 1, r; r = tbl.rows[i]; i++) {
+      child = r.cells[0].querySelector('.CatTitle');
+      if (child !== null) {
+        verbiage = verbiage + child.innerText + ' ';
+      }
+      child = r.cells[1].querySelector('input');
+
+      verbiage = verbiage + child.value + '\n';
+      if (child.value !== null) {
+        total = total + Number(child.value.match(/\d+/));
+      }
+    }
+
+    document.getElementById("total").value = total;
+    document.getElementById("to_be_copied").value = verbiage + "\nTotal points: " + total + " ";
+
+    document.getElementById("submitbutton").focus();
+  }
+
+  function highlightfromtext(){
+    var lines = document.getElementById("to_be_copied").value.split('\n');
+    var values = [];
+
+    for(var i = 0;i < lines.length;i++){
+      var re = new RegExp(/\d+/); //starts with digit, one or more
+      var m = re.exec(lines[i]);
+      if (m) {
+        values.push(m[0]);
+      }
+    }
+
+    tbl = document.getElementById('maintable');
+
+    for (i = 0; i < values.length-1; i++) {
+      var possible = tbl.rows[i+1].querySelectorAll(".GrOption");
+      for (j = 0; j < possible.length; j++) {
+        if (Number(possible[j].innerText) == Number(values[i])) {
+          possible[j].click();
+        }
+      }
+    }
+  }
+
+
+
+function copytext() {
+  document.getElementById("to_be_copied").select();
+  try {
+    return document.execCommand("copy");  // Security exception may be thrown by some browsers.
+  } catch (ex) {
+    console.warn("Copy to clipboard failed.", ex);
+    return false;
+  }
+}
+
+function toTitleCase(str) {
+  return str.replace(
+    /\w\S*/g,
+    function(txt) {
+      return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    }
+  );
+}
+</script>
+</html>
